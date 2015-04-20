@@ -5,9 +5,9 @@
 
 /**
  * @ngdoc function
- * @name gameApp.controller:MainCtrl
+ * @name gameApp.controller:LoginCtrl
  * @description
- * # MainCtrl
+ * # LoginCtrl
  * Controller of the gameApp
  */
 app.controller('LoginCtrl', ['$scope', 'Auth',
