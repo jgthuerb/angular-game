@@ -1,7 +1,6 @@
-# game
+# Angular Game
 
-This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
-version 0.11.1.
+This is a project testing out AngularJS and Firebase.io
 
 ## Build & development
 
@@ -10,3 +9,7 @@ Run `grunt` for building and `grunt serve` for preview.
 ## Testing
 
 Running `grunt test` will run the unit tests with karma.
+
+## Live Example
+
+[https://jon-game.firebaseapp.com](https://jon-game.firebaseapp.com/)
