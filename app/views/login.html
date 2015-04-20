@@ -1,4 +1,10 @@
 <div class="jumbotron" ng-controller="LoginCtrl">
   <h2>Login with Facebook</h2>
-  <p><button class="btn btn-lg btn-success" ng-click="auth.$authWithOAuthPopup('facebook')">Login with Facebook</button></p>
+  <p>
+    <button class="btn btn-lg btn-success" ng-click="auth.$authWithOAuthPopup('facebook')">Login with Facebook</button>
+  </p>
+  <div ng-show="authData">
+    <p>Welcome, {{ authData.facebook.displayName }}</p>
+    <button ng-click="auth.$unauth()">Logout</button>
+  </div>
 </div>
