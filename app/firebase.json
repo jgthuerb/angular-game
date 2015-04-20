@@ -1,0 +1,9 @@
+{
+  "firebase": "jon-game",
+  "public": ".",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}
